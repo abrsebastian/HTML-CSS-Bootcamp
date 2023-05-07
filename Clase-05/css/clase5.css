@@ -1,0 +1,8 @@
+.imagenes{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imagen-galeria{
+    width: 300px;
+}
