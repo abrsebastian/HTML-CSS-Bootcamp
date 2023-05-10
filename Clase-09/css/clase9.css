@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(251, 238, 238);
+}
+
+.btn-modern{
+padding: 10px 15px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: xx-large;
+border-radius: 5px;
+border: none;
+background-color: rgb(224, 110, 110);
+color: rgb(147, 41, 41);
+}
+
+.btn-modern:hover{
+transform: translateY(-5px);
+box-shadow: 0 0 5px black; 
+background-color: rgb(163, 163, 150);
+color: rgb(36, 42, 36);
+transition: 0.4s;
+}
+
